@@ -1,0 +1,49 @@
+# Ambiente virtual
+.venv/
+env/
+.venv*
+venv/
+
+# Arquivos de configuração
+*.env
+*.ini
+*.yml
+*.json
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+*.bak
+
+# Logs
+*.log
+
+# Arquivos de dependências
+*.egg-info/
+dist/
+build/
+
+# Banco de dados SQLite (se usar no projeto)
+*.db
+*.sqlite3
+
+# Arquivos de produção (evite versionar build, arquivos temporários etc.)
+*.tar.gz
+*.zip
+*.tar
+
+# Arquivos de containers (ex: Docker, se não for incluir Dockerfile no repo)
+docker-compose.override.yml
+*.docker
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
